@@ -115,10 +115,6 @@ export function Topbar() {
       </div>
 
       <div className="topbar-actions relative" ref={dropdownRef}>
-        <span className="dataset-status">
-          <i></i> Database Supabase <b>&middot;</b> Live
-        </span>
-
         {/* Bell Notification Button */}
         <div className="relative">
           <button

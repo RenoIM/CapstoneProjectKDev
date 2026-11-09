@@ -137,34 +137,6 @@ export function SearchView() {
             mulai membangun.
           </p>
         </div>
-        <div className="hero-visual" aria-hidden="true">
-          <div className="orbit orbit-one"></div>
-          <div className="orbit orbit-two"></div>
-          <div className="visual-core">
-            <span>
-              <Icon name="sparkle" width="1em" height="1em" />
-            </span>
-          </div>
-          <div className="float-card card-top">
-            <i className="tiny-dot"></i> ide baru{' '}
-            <b>
-              <Icon name="sparkle" />
-            </b>
-          </div>
-          <div className="float-card card-bottom">
-            <span className="mini-bars">
-              <i></i>
-              <i></i>
-              <i></i>
-              <i></i>
-            </span>
-            <span>peluang ditemukan</span>
-          </div>
-          <div className="visual-star star-one">
-            <Icon name="sparkle" />
-          </div>
-          <div className="visual-star star-two">&middot;</div>
-        </div>
       </section>
 
       <section className="workspace-grid">

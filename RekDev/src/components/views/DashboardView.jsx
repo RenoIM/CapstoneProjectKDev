@@ -39,7 +39,7 @@ export function DashboardView() {
             ANALISIS PASAR <span className="demo-pill">DATA DEMO</span>
           </span>
           <h2 id="dashboard-title">Genre populer di Steam</h2>
-          <p>Lihat gambaran minat pemain sebagai bahan pertimbangan ide game-mu.</p>
+          <p>Lihat gambaran minat pemain sebagai bahan pertimbangan ide game</p>
         </div>
         <button className="period-select" type="button" aria-label="Periode data">
           Dataset 2024{' '}
