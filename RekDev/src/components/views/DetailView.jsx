@@ -127,9 +127,7 @@ export function DetailView() {
           <div className="detail-match">
             <span className="match-score">
               <strong id="detail-score">{scoreText}</strong>
-              <span id="detail-score-label">{scoreLabel}</span>
             </span>
-            <p id="detail-description">{selectedGame.description}</p>
           </div>
 
           <div className="detail-tags" id="detail-tags">
@@ -140,10 +138,6 @@ export function DetailView() {
 
           {/* Meaningful Market Research Fact Cards */}
           <dl className="detail-facts">
-            <div>
-              <dt>Genre Utama</dt>
-              <dd id="detail-genres">{genreText}</dd>
-            </div>
             <div>
               <dt>Estimasi Pemilik</dt>
               <dd id="detail-owners">{ownersText}</dd>
@@ -160,8 +154,8 @@ export function DetailView() {
               </dd>
             </div>
             <div>
-              <dt>Tahun & Status Rilis</dt>
-              <dd>{selectedGame.year ? `${selectedGame.year} · Rilis Penuh` : '2023 · Rilis Penuh'}</dd>
+              <dt>Tahun</dt>
+              <dd>{selectedGame.year}</dd>
             </div>
             <div>
               <dt>Platform Dukungan</dt>

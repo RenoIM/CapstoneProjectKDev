@@ -139,27 +139,6 @@ export function Sidebar() {
       </nav>
 
       <div className="sidebar-bottom">
-        <div className="help-card">
-          <div className="help-icon">
-            <Icon name="bulb" />
-          </div>
-          <strong>Ide bagus dimulai dari riset.</strong>
-          <p>Temukan peluang di antara ribuan game Steam.</p>
-          <a
-            href="#how-it-works"
-            onClick={(e) => {
-              e.preventDefault();
-              navigateTo('search');
-              setTimeout(() => {
-                const el = document.getElementById('how-it-works');
-                el?.scrollIntoView({ behavior: 'smooth' });
-              }, 100);
-            }}
-          >
-            Cara kerja <span><Icon name="arrow-right" /></span>
-          </a>
-        </div>
-
         <div className="mt-3.5 pt-3 border-t border-[#292b35] flex items-center gap-2.5 min-w-0">
           <div
             className={`w-8 h-8 rounded-full shrink-0 flex items-center justify-center font-bold text-xs shadow-sm cursor-pointer select-none border ${
