@@ -132,24 +132,6 @@ export function ResultsView() {
                     <span className="match-label">{game.label}</span>
                     <h3>{game.title}</h3>
                   </div>
-                  <div className="match-score">
-                    <strong>{game.score}%</strong>
-                    <span>kemiripan</span>
-                  </div>
-                </div>
-
-                <div
-                  className="match-progress"
-                  role="progressbar"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  aria-valuenow={game.score}
-                  aria-label={`Nilai kemiripan ${game.score}%`}
-                >
-                  <span
-                    style={{ width: `${game.score}%` }}
-                    aria-hidden="true"
-                  ></span>
                 </div>
 
                 <p className="game-description">{game.description}</p>

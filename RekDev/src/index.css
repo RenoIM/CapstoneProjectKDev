@@ -1621,8 +1621,7 @@ textarea:focus-visible {
     grid-template-columns: minmax(220px, 30%) minmax(0, 1fr);
     gap: 27px;
     padding: 14px;
-    background: #191c24;
-    border: 1px solid #2d303a;
+    background: #172855;
     border-radius: 10px
 }
 
