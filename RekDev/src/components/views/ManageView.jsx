@@ -383,26 +383,6 @@ export function ManageView() {
           Riwayat ini disinkronkan langsung dengan tabel update_logs di Supabase.
         </p>
       </section>
-
-      <AddEditGameModal
-        isOpen={isAddEditOpen}
-        onClose={() => setIsAddEditOpen(false)}
-        editingGame={editingGame}
-        onSave={(savedGame) => {
-          if (editingGame) {
-            updateGame(savedGame);
-          } else {
-            addGame(savedGame);
-          }
-        }}
-      />
-
-      <DeleteGameModal
-        isOpen={isDeleteOpen}
-        onClose={() => setIsDeleteOpen(false)}
-        game={deletingGame}
-        onConfirm={(id) => deleteGame(id, deletingGame?.name)}
-      />
     </section>
   );
 }
